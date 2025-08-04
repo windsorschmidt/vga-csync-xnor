@@ -11,8 +11,8 @@ televisions with RGBS inputs, e.g. SCART or RGB-modified televisions.
 An on-board EEPROM allows the adapter to store and serve an EDID to
 the host PC to automatically configure a TV-compatible video mode.
 
-In Linux, [[https://github.com/ChalkElec/write-edid][write-edid]] may be used to program the on-board EEPROM with
-an EDID. Sample EDID files have been included in the repository.
+In Linux, [[https://github.com/ChalkElec/write-edid][write-edid]] may be used to program the EEPROM with an
+EDID. Sample EDID files have been included.
 
 * License
 
