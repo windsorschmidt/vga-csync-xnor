@@ -1,12 +1,12 @@
 * About
 
-VGA H/V to Composite Sync Generator (XNOR).
-
-| [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
+VGA H/V to Composite Sync Generator. Kicad 9 schematic and PCB.
 
 Combines VGA horizontal and vertical synchronization signals into 75Ω
 composite sync for use with analog CRT displays such as PVMs/BVM's, or
 televisions with RGBS inputs, e.g. SCART or RGB-modified televisions.
+
+| [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
 
 * EDID EEPROM
 
@@ -15,26 +15,6 @@ the host PC to automatically configure a TV-compatible video mode.
 
 In Linux, [[https://github.com/ChalkElec/write-edid][write-edid]] may be used to program the on-board EEPROM with
 an EDID. Sample EDID files have been included in the repository.
-
-* Connector Pinout
-
-| J1 Pin | RGBHV Input | J2 Pin | RGBS Output |
-|--------+-------------+--------+-------------|
-|      1 | Red         |      1 | Red         |
-|      2 | Green       |      2 | Green       |
-|      3 | Blue        |      3 | Blue        |
-|      4 | +5VDC       |      4 | +5VDC       |
-|      5 | Ground      |      5 | Ground      |
-|      6 | Ground      |      6 | Ground      |
-|      7 | Ground      |      7 | Ground      |
-|      8 | Ground      |      8 | Ground      |
-|      9 | +5VDC       |      9 | +5VDC       |
-|     10 | Ground      |     10 | Ground      |
-|     11 | No Connect  |     11 | No Connect  |
-|     12 | SDA         |     12 | No Connect  |
-|     13 | HSYNC       |     13 | CSYNC       |
-|     14 | VSYNC       |     14 | No Connect  |
-|     15 | SCL         |     15 | No Connect  |
 
 * License
 
