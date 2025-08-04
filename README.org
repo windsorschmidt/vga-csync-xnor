@@ -1,7 +1,5 @@
 * About
 
-VGA H/V to Composite Sync Generator. Kicad 9 schematic and PCB.
-
 Combines VGA horizontal and vertical synchronization signals into 75Ω
 composite sync for use with analog CRT displays such as PVMs/BVM's, or
 televisions with RGBS inputs, e.g. SCART or RGB-modified televisions.
