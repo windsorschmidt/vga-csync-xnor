@@ -1,0 +1,11 @@
+* About
+
+VGA H/V to Composite Sync Generator (XNOR).
+
+| [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
+
+* License
+
+Circuit schematic and PCB layout are licensed under CERN-OHL-S v2.
+
+See [[LICENSE.txt]].
