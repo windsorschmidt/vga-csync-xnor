@@ -4,7 +4,7 @@ Combines VGA horizontal and vertical synchronization signals into 75Ω
 composite sync for use with analog CRT displays such as PVMs/BVM's, or
 televisions with RGBS inputs, e.g. SCART or RGB-modified televisions.
 
-| [[render_top.png?raw=true]] | [[render_bottom.png?raw=true]] |
+[[vga-csync-xnor.png?raw=true]]
 
 * EDID EEPROM
 
